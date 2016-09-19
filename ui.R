@@ -4,7 +4,7 @@ library(protr)
 library(markdown)
 
 shinyUI(fluidPage(title="osFP: a web server for predicting the oligomeric state of fluorescent proteins", theme=shinytheme("united"),
-                  navbarPage(strong("osFP"),
+                  navbarPage(strong("osFP"), collapsible = TRUE,
                              titleContent <- HTML("<b>osFP</b>: a web server for predicting the oligomeric state of fluorescent proteins"),
                              tabPanel("Submit Job", titlePanel(titleContent),
                                       sidebarLayout(
