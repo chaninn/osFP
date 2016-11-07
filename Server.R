@@ -1,7 +1,6 @@
 library(shiny)
 library(seqinr)
 library(protr)
-library(caret)
 library(RWeka)
 library(shinyjs)
 
