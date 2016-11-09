@@ -29,8 +29,9 @@ shinyUI(fluidPage(title="osFP: a web server for predicting the oligomeric state 
                              ), #tabPanel Submit Job
                              
                              tabPanel("About", titlePanel("About"), div(includeMarkdown("about.md"), align="justify")),
-                             tabPanel("Citing Us", titlePanel("Citing Us"), includeMarkdown("cite.md")),
-                             tabPanel("Contact", titlePanel("Contact"), includeMarkdown("contact.md")),	
+                             tabPanel("Download", titlePanel("Download"), div(includeMarkdown("download.md"), align="justify")),
+                             tabPanel("Citing Us", titlePanel("Citing Us"), div(includeMarkdown("cite.md"), align="justify")),
+                             tabPanel("Contact", titlePanel("Contact"), div(includeMarkdown("contact.md"), align="justify")),	
                              
                              copyright <- div(HTML("<br><table border=0 cellpadding=10 cellspacing=10 width='100%' height='50'><tr><td bgcolor='#f2f2f2' align='center'>Copyright © 2016 <a href='http://codes.bio'>codes.bio</a>. All rights reserved.</td></tr></table>")),
                              cat(as.character(copyright))
