@@ -1,5 +1,5 @@
 # osFP
-osFP: a web server for predicting the oligomeric state of fluorescent proteins
+osFP is a web server for predicting the oligomeric state of fluorescent proteins.
 
 ### Prerequisites
 
@@ -26,3 +26,9 @@ To use the application:
 ```
 2. Paste your sequences in FASTA format into the text box *or* Upload your input FASTA files
 3. The prediction results will appear in the **Status/Output** box. Users can also download the prediction results in CSV file format by clicking on the **Download** button.
+
+### Citing this work
+If you find the osFP web server useful, please cite:
+```
+Simeon S, Shoombuatong W, Anuwongcharoen N, Preeyanon L, Prachayasittikul V, Wikberg JES, Nantasenamat C. osFP: a web server for predicting the oligomeric states of fluorescent proteins. ***Journal of Cheminformatics*** (Accepted for Publication).
+```
