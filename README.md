@@ -10,7 +10,7 @@ install.packages(c('shiny','shinyjs','shinythemes','protr','seqinr','RWeka','mar
 ```
 
 ### Launching the application
-To launch the application on your own computer, in an R environment, type the following:
+To launch the application on your own local computer, in an R environment, type the following:
 
 ```
 shiny::runGitHub('osfp','chaninn')
