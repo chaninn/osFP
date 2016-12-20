@@ -18,3 +18,15 @@ osFP is very simple to use requiring only 3 steps as follows:
 3. Download the osFP [source codes](https://github.com/chaninn/osFP/archive/master.zip) and unzip the contents of the ZIP file to the osFP folder at the following path: **_/srv/shiny-server/osfp/_**
 4. Make sure that the Shiny Server is up and running by running the command: **_start shiny-server_**
 5. Your local instance of osFP should be able to run from the URL **_http://192.168.1.1:3838/osfp/_**
+
+### Launching the osFP on your local computer
+You can also run your own local version of osFP right on your local computer in an R environment by typing the following one-line code:
+```R
+shiny::runGitHub('osfp','chaninn')
+```
+
+#### Prerequisite
+Before beginning, please make sure to install the following R packages: *shiny*, *shinyjs* and *shinythemes*, *protr*, *seqinr*, *RWeka* and *markdown* which can be performed by typing the following commands into an R environment:
+```R
+install.packages(c('shiny','shinyjs','shinythemes','protr','seqinr','RWeka','markdown'))
+```
