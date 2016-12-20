@@ -5,14 +5,14 @@ osFP is a web server for predicting the oligomeric state of fluorescent proteins
 
 Before beginning, please make sure to install the following R packages: *shiny*, *shinyjs* and *shinythemes*, *protr*, *seqinr*, *RWeka* and *markdown* which can be performed by typing the following commands into an R environment:
 
-```
+```R
 install.packages(c('shiny','shinyjs','shinythemes','protr','seqinr','RWeka','markdown'))
 ```
 
 ### Launching the application
 To launch the application on your own local computer, in an R environment, type the following:
 
-```
+```R
 shiny::runGitHub('osfp','chaninn')
 ```
 In a few moments, the application should launch from your web browser.
