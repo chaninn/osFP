@@ -38,6 +38,7 @@ If you find the osFP web server useful, please cite:
 
 [![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs13321--016--0185--8-blue.svg)](https://doi.org/10.1186/s13321-016-0185-8)
 
+The BibTex reference format is given below:
 ```
 @article{Simeon2016osFP,
     author="Simeon, Saw
