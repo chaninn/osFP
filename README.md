@@ -32,5 +32,7 @@ If you find the osFP web server useful, please cite:
 
 > Simeon S, Shoombuatong W, Anuwongcharoen N, Preeyanon L, Prachayasittikul V, Wikberg JES, Nantasenamat C. 
 [osFP: a web server for predicting the oligomeric states of fluorescent proteins](http://jcheminf.springeropen.com/articles/10.1186/s13321-016-0185-8). ***Journal of Cheminformatics*** 
-8 (2016) 72. *DOI: 10.1186/s13321-016-0185-8*.
+8 (2016) 72. 
+[![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs13321--016--0185--8-blue.svg)](https://doi.org/10.1186/s13321-016-0185-8)
+
 
