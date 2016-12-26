@@ -1,4 +1,5 @@
 # osFP
+[![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs13321--016--0185--8-blue.svg)](https://doi.org/10.1186/s13321-016-0185-8)
 osFP is a web server for predicting the oligomeric state of fluorescent proteins.
 
 ### Prerequisites
